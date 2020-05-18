@@ -53,7 +53,7 @@ The zoos are concerned about animals with a lower population count. Using filter
   with a population less than 5.
 
 */
-let lowPopulationAnimals = zooAnimals.filter(animal => animal.population <=5);
+let lowPopulationAnimals = zooAnimals.filter(animal => animal.population <5);
 console.log (lowPopulationAnimals);
 
 /* Request 4: .reduce() 
